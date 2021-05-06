@@ -1,3 +1,81 @@
+# class Application
+#   @@cart = []
+#   def call(env)
+#     resp = Rack::Response.new
+#     req = Rack::Request.new(env)
+    
+    
+
+#     if req.path.match('/cart')
+#       if @@cart.length == 0
+#         return resp.write "Your cart is empty"
+#       end
+#       @@cart.each do |item|
+#         resp.write "#{item} \n"
+#       end
+#     end
+#   end
+# end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Application
 
   @@items = ["Apples","Carrots","Pears"]
